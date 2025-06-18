@@ -1,0 +1,82 @@
+---
+layout: default
+permalink: /
+---
+
+<div class="hero-section">
+    <div class="hero-container">
+        <!-- Profile Image - Left Side -->
+        <div class="profile-image-container">
+            <div class="profile-image">
+                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="{{ site.author.name }}" />
+                <div class="profile-badge">
+                    <i data-lucide="graduation-cap"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content - Right Side -->
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">{{ site.author.name }}</h1>
+                <p class="hero-subtitle">{{ site.author.bio }}</p>
+                <div class="hero-details">
+                    <div class="detail-item">
+                        <i data-lucide="building"></i>
+                        <span>{{ site.author.employer }}</span>
+                    </div>
+                    <div class="detail-item">
+                        <i data-lucide="map-pin"></i>
+                        <span>{{ site.author.location }}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-focus">
+                <h2 class="section-title">
+                    <i data-lucide="book-open"></i>
+                    Research Focus
+                </h2>
+                <p class="research-description">
+                    My research focuses on developing deep learning architectures that address the challenge of 
+                    processing and understanding multimedia data—images, videos, texts, and audio. The project 
+                    aims to bridge the gap between multimedia representation and machine perception of entities, 
+                    their semantic meanings, and interconnected events.
+                </p>
+            </div>
+
+            <div class="supervisor-info">
+                <h3 class="supervisor-title">Supervisor</h3>
+                <p class="supervisor-name">
+                    <a href="{{ site.author.supervisor_link }}" target="_blank" rel="noopener noreferrer" class="supervisor-link">
+                        {{ site.author.supervisor_name }}
+                        <i data-lucide="external-link"></i>
+                    </a>
+                </p>
+            </div>
+
+            <div class="hero-actions">
+                <a href="mailto:{{ site.author.email }}" class="btn btn-primary">
+                    <i data-lucide="mail"></i>
+                    Contact Me
+                </a>
+                <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i data-lucide="github"></i>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i data-lucide="linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Initialize Lucide icons for this page
+    document.addEventListener('DOMContentLoaded', function() {
+        lucide.createIcons();
+    });
+</script>
+

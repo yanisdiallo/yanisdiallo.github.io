@@ -1,0 +1,72 @@
+# Site settings
+title: "Yanis Diallo"
+email: "ydiallo@math.unipd.it"
+description: "PhD Candidate in Computer Science for Societal Challenges and Innovation, TRAIL Doctoral Network (Università di Padova)."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://psykaunot.github.io" # the base hostname & protocol for your site
+twitter_username: ""
+github_username: "psykaunot"
+linkedin_username: "yanisdiallo"
+
+# Author information
+author:
+  name: "Yanis Diallo"
+  bio: "PhD Candidate in Computer Science for Societal Challenges and Innovation, XXXIX series. Deep Learning-Based Architectures for Semantics Discovery of Entities and Events."
+  location: "Padova, Italy"
+  employer: "Università di Padova"
+  email: "ydiallo@math.unipd.it"
+  linkedin: "yanisdiallo"
+  github: "psykaunot"
+  academic_profile: "http://hit.psy.unipd.it/diallo-yanis"
+  department_profile: "https://www.math.unipd.it/dipartimento/persone/belko_errol_yanis.diallo/"
+  supervisor_name: "Prof. Alessandro Sperduti"
+  supervisor_link: "https://scholar.google.com/citations?user=JsExaWMAAAAJ&hl=en"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: "/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publication"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
