@@ -44,20 +44,42 @@ permalink: /research/
         </div>
     </section>
 
+    <!-- Master's Thesis Section -->
+    <section class="research-section">
+        <h2 class="section-title">
+            <i data-lucide="graduation-cap"></i>
+            Master's Thesis
+        </h2>
+        
+        <div class="research-project">
+            <h3 class="project-title">Optimized Obstacle Avoidance Model Using Hybrid Navigation Framework</h3>
+            <p class="project-meta">Master's Thesis • Cranfield University (2022-2023)</p>
+            <p class="project-description">
+                My Master's thesis focused on developing a hybrid navigation framework for autonomous mobile robots to improve obstacle avoidance in complex and changing environments. The system integrated YOLOv7 object recognition, DWA (Dynamic-Window Approach) local planning, and RRT (Rapidly exploring Random Tree) global planning. The research demonstrated enhanced navigation capabilities in the presence of both static and dynamic obstacles, effectively maneuvering through shorter distances while excelling in terms of completion time and collision avoidance.
+            </p>
+            <div class="project-details">
+                <h4 class="project-details-title">Key Contributions:</h4>
+                <ul>
+                    <li>Development of a hybrid navigation framework for Turtlebot3 robots.</li>
+                    <li>Integration of YOLOv7 for object recognition.</li>
+                    <li>Comparative evaluation of the hybrid model against conventional planners.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <!-- Past Research Section -->
     <section class="research-section">
         <h2 class="section-title">
             <i data-lucide="award"></i>
-            Past Research Projects
+            Related Research & Contributions
         </h2>
         
         <div class="research-project">
             <h3 class="project-title">Mobile Robot Obstacle Detection and Avoidance with NAV-YOLO</h3>
-            <p class="project-meta">Master's Thesis Research • Cranfield University</p>
+            <p class="project-meta">Contribution to a research paper • ICCMA 2023 Best Paper Presentation Award</p>
             <p class="project-description">
-                Developed an optimized obstacle avoidance system using a hybrid navigation framework with YOLOv7. 
-                This research contributed to improved autonomous navigation capabilities for mobile robots in 
-                dynamic environments, combining computer vision with real-time decision-making algorithms.
+                This paper, an outcome of my Master's thesis work, presents NAV-YOLO, a novel approach for mobile robot obstacle detection and avoidance using deep learning techniques. My contribution involved conducting experiments and providing data that supported the findings of this research.
             </p>
             
             <div class="achievement">

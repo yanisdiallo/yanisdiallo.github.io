@@ -30,6 +30,11 @@ permalink: /publications/
                     <span class="tag">Computer Vision</span>
                     <span class="tag">YOLO</span>
                 </div>
+                <p class="publication-link">
+                    <a href="https://www.ijmerr.com/2024/IJMERR-V13N2-219.pdf" target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="file-text"></i> Read the Paper
+                    </a>
+                </p>
             </div>
         </div>
     </section>
@@ -71,8 +76,9 @@ permalink: /publications/
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener("DOMContentLoaded", function() {
         lucide.createIcons();
     });
 </script>
+
 

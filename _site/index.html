@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yanis Diallo</title>
+    <meta name="description" content="PhD Candidate in Computer Science for Societal Challenges and Innovation, TRAIL Doctoral Network (Università di Padova).">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Theme Script -->
+    <script>
+        // Theme handling
+        const getTheme = () => localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        const setTheme = (theme) => {
+            localStorage.setItem('theme', theme);
+            document.documentElement.classList.toggle('dark', theme === 'dark');
+        };
+        setTheme(getTheme());
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-brand">Yanis Diallo</a>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-menu">
+                <a href="/" class="nav-link active">About</a>
+                <a href="/cv/" class="nav-link ">CV</a>
+                <a href="/publications/" class="nav-link ">Publications</a>
+                <a href="/research/" class="nav-link ">Research</a>
+                <a href="/contact/" class="nav-link ">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="mobile-menu-container">
+                <button id="theme-toggle-mobile" class="theme-toggle" aria-label="Toggle theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="/" class="mobile-nav-link active">About</a>
+            <a href="/cv/" class="mobile-nav-link ">CV</a>
+            <a href="/publications/" class="mobile-nav-link ">Publications</a>
+            <a href="/research/" class="mobile-nav-link ">Research</a>
+            <a href="/contact/" class="mobile-nav-link ">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="hero-section">
+    <div class="hero-container">
+        <!-- Profile Image - Left Side -->
+        <div class="profile-image-container">
+            <div class="profile-image">
+                <img src="/assets/images/profile.jpg" alt="Yanis Diallo" />
+                <div class="profile-badge">
+                    <i data-lucide="graduation-cap"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content - Right Side -->
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Yanis Diallo</h1>
+                <p class="hero-subtitle">PhD Candidate in Computer Science for Societal Challenges and Innovation, XXXIX series. Deep Learning-Based Architectures for Semantics Discovery of Entities and Events.</p>
+                <div class="hero-details">
+                    <div class="detail-item">
+                        <i data-lucide="building"></i>
+                        <span>Università di Padova</span>
+                    </div>
+                    <div class="detail-item">
+                        <i data-lucide="map-pin"></i>
+                        <span>Padova, Italy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-focus">
+                <h2 class="section-title">
+                    <i data-lucide="book-open"></i>
+                    Research Focus
+                </h2>
+                <p class="research-description">
+                    My research focuses on developing deep learning architectures that address the challenge of 
+                    processing and understanding multimedia data—images, videos, texts, and audio. The project 
+                    aims to bridge the gap between multimedia representation and machine perception of entities, 
+                    their semantic meanings, and interconnected events.
+                </p>
+            </div>
+
+            <div class="supervisor-info">
+                <h3 class="supervisor-title">Supervisor</h3>
+                <p class="supervisor-name">
+                    <a href="https://scholar.google.com/citations?user=JsExaWMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="supervisor-link">
+                        Prof. Alessandro Sperduti
+                        <i data-lucide="external-link"></i>
+                    </a>
+                </p>
+            </div>
+
+            <div class="hero-actions">
+                <a href="mailto:ydiallo@math.unipd.it" class="btn btn-primary">
+                    <i data-lucide="mail"></i>
+                    Contact Me
+                </a>
+                <a href="https://github.com/psykaunot" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i data-lucide="github"></i>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/yanisdiallo" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i data-lucide="linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Initialize Lucide icons for this page
+    document.addEventListener('DOMContentLoaded', function() {
+        lucide.createIcons();
+    });
+</script>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Yanis Diallo. All rights reserved.</p>
+            <div class="footer-links">
+                
+                <a href="mailto:ydiallo@math.unipd.it" aria-label="Email">
+                    <i data-lucide="mail"></i>
+                </a>
+                
+                
+                <a href="https://github.com/psykaunot" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+                
+                
+                <a href="https://www.linkedin.com/in/yanisdiallo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i data-lucide="linkedin"></i>
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeToggleMobile = document.getElementById('theme-toggle-mobile');
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        function toggleTheme() {
+            const currentTheme = getTheme();
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            setTheme(newTheme);
+        }
+
+        themeToggle?.addEventListener('click', toggleTheme);
+        themeToggleMobile?.addEventListener('click', toggleTheme);
+
+        // Mobile menu toggle
+        mobileMenuToggle?.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            mobileMenuToggle.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenu.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
+

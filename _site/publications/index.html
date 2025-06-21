@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications & Talks - Yanis Diallo</title>
+    <meta name="description" content="PhD Candidate in Computer Science for Societal Challenges and Innovation, TRAIL Doctoral Network (Università di Padova).">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Theme Script -->
+    <script>
+        // Theme handling
+        const getTheme = () => localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        const setTheme = (theme) => {
+            localStorage.setItem('theme', theme);
+            document.documentElement.classList.toggle('dark', theme === 'dark');
+        };
+        setTheme(getTheme());
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-brand">Yanis Diallo</a>
+            
+            <!-- Desktop Navigation -->
+            <div class="nav-menu">
+                <a href="/" class="nav-link ">About</a>
+                <a href="/cv/" class="nav-link ">CV</a>
+                <a href="/publications/" class="nav-link active">Publications</a>
+                <a href="/research/" class="nav-link ">Research</a>
+                <a href="/contact/" class="nav-link ">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="mobile-menu-container">
+                <button id="theme-toggle-mobile" class="theme-toggle" aria-label="Toggle theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+                    <i data-lucide="menu" class="menu-icon"></i>
+                    <i data-lucide="x" class="close-icon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="/" class="mobile-nav-link ">About</a>
+            <a href="/cv/" class="mobile-nav-link ">CV</a>
+            <a href="/publications/" class="mobile-nav-link active">Publications</a>
+            <a href="/research/" class="mobile-nav-link ">Research</a>
+            <a href="/contact/" class="mobile-nav-link ">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="page-content">
+    
+    <div class="page-header">
+        <h1 class="page-title">Publications & Talks</h1>
+    </div>
+    
+    
+    <div class="content-wrapper">
+        <div class="publications-content">
+    <!-- Journal Articles Section -->
+    <section class="publication-section">
+        <h2 class="section-title">
+            <i data-lucide="book-open"></i>
+            Journal Articles
+        </h2>
+        
+        <div class="publication-item">
+            <div class="publication-header">
+                <h3 class="publication-title">Mobile Robot Obstacle Detection and Avoidance with NAV-YOLO</h3>
+                <p class="publication-meta">Published in International Journal of Mechanical Engineering and Robotics Research, 2024</p>
+                <p class="publication-award">Presented at ICCMA 2023 • Received Best Paper Presentation Award</p>
+            </div>
+            <div class="publication-content">
+                <p class="publication-abstract">
+                    This paper presents NAV-YOLO, a novel approach for mobile robot obstacle detection and avoidance 
+                    using deep learning techniques. The research demonstrates improved navigation capabilities in 
+                    dynamic environments through optimized obstacle detection algorithms.
+                </p>
+                <div class="publication-tags">
+                    <span class="tag">Robotics</span>
+                    <span class="tag">Deep Learning</span>
+                    <span class="tag">Computer Vision</span>
+                    <span class="tag">YOLO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Talks Section -->
+    <section class="publication-section">
+        <h2 class="section-title">
+            <i data-lucide="presentation"></i>
+            Talks
+        </h2>
+        
+        <div class="publication-item">
+            <div class="publication-header">
+                <h3 class="publication-title">Deep Learning-Based Architectures for Semantics Discovery of Entities and Events</h3>
+                <p class="publication-meta">Workshop on Explainable AI in Human-Robot Interaction, ICANN 2024, Lugano, Switzerland</p>
+            </div>
+            <div class="publication-content">
+                <div class="workshop-program">
+                    <h4 class="workshop-title">Workshop Program:</h4>
+                    <ul class="workshop-list">
+                        <li>Introduction of TRAIL, Welcome by Stefan Wermter</li>
+                        <li>Multimodal Explainability in Human-Robot Interaction - Elmira Yadollahi</li>
+                        <li>User-centric Understandable Human-Robot Interaction - Ferran GebellÍ</li>
+                        <li>Explaining Robots through Sparse Autoencoders - Sergio Lanza</li>
+                        <li>Automatic Speech Recognition Model Calibration and Explainability - Julia Gachot</li>
+                        <li><strong>Deep Learning-Based Architectures for Semantics Discovery of Entities and Events - Yanis Diallo</strong></li>
+                        <li>Visualising and Interpreting Concept Analysis Methods for Deep Neural Networks - Tamara Bila</li>
+                    </ul>
+                </div>
+                <div class="publication-tags">
+                    <span class="tag">Explainable AI</span>
+                    <span class="tag">Human-Robot Interaction</span>
+                    <span class="tag">Deep Learning</span>
+                    <span class="tag">Semantics</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        lucide.createIcons();
+    });
+</script>
+
+
+    </div>
+</div>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Yanis Diallo. All rights reserved.</p>
+            <div class="footer-links">
+                
+                <a href="mailto:ydiallo@math.unipd.it" aria-label="Email">
+                    <i data-lucide="mail"></i>
+                </a>
+                
+                
+                <a href="https://github.com/psykaunot" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+                
+                
+                <a href="https://www.linkedin.com/in/yanisdiallo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i data-lucide="linkedin"></i>
+                </a>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeToggleMobile = document.getElementById('theme-toggle-mobile');
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        function toggleTheme() {
+            const currentTheme = getTheme();
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            setTheme(newTheme);
+        }
+
+        themeToggle?.addEventListener('click', toggleTheme);
+        themeToggleMobile?.addEventListener('click', toggleTheme);
+
+        // Mobile menu toggle
+        mobileMenuToggle?.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            mobileMenuToggle.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenu.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
+                mobileMenu.classList.remove('active');
+                mobileMenuToggle.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
+
