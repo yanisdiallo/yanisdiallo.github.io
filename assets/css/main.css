@@ -638,6 +638,10 @@ a:hover {
   font-weight: 500;
 }
 
+.publication-link {
+  margin-top: var(--spacing-md); /* Added spacing above the link */
+}
+
 .workshop-program {
   margin-bottom: var(--spacing-md);
 }
