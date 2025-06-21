@@ -636,15 +636,15 @@ a:hover {
   border-radius: var(--radius-sm);
   font-size: var(--font-size-xs);
   font-weight: 500;
-  margin-bottom: var(--spacing-md); /* Added margin-bottom to create space below tags */
+  margin-bottom: var(--spacing-lg); /* Increased margin-bottom to create more space below tags */
 }
 
 .publication-link {
-  margin-top: var(--spacing-md); /* Keep this for consistency, though margin-bottom on tags is primary */
+  margin-top: var(--spacing-md); /* Keep this for consistency */
 }
 
 .publication-link i {
-  font-size: var(--font-size-lg); /* Adjust icon size if needed */
+  font-size: var(--font-size-base); /* Adjusted icon size to be slightly smaller */
 }
 
 .workshop-program {
