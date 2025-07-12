@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* PhD in Computer Science for Societal Challenges and Innovation, Università di Padova, XXXIX series (ongoing)
+* PhD in Computer Science for Societal Challenges and Innovation, Università di Padova (March 2024 – Present)
   * Project: "Deep Learning-Based Architectures for Semantics Discovery of Entities and Events"
   * Funded by: HORIZON-MSCA-2021-DN-01-01, project n. 101072488, [TRAIL](https://www.inf.uni-hamburg.de/research/projects/trail/overview.html)
   * Supervisor: [Alessandro Sperduti](https://scholar.google.com/citations?user=JsExaWMAAAAJ&hl=en)
@@ -22,13 +22,17 @@ Education
   * Thesis (Grade 75): Optimized obstacle avoidance using a hybrid navigation framework with YOLOv7, C++, ROS, Linux, GitHub
   * Research Paper (co-author): Mobile Robot Obstacle Detection and Avoidance with NAV-YOLO. The paper received the Best Paper Presentation award at the 11th ICCMA 2023 conference
 
-* MSc in Mechanical and Electrical Engineering with a Robotics Specialization, ECAM LaSalle Engineering School, Lyon, France (September 2018 - September 2023)
+* MSc in Mechanical and Electrical Engineering with a Robotics Specialization, ECAM LaSalle Engineering School, Lyon, France (September 2018 - December 2023)
   * Modules: Robotics, Sensing & Perception, Signal Processing, Control Theory, Mechanical Design, Heat Transfer, Electrical Network, Materials
   * Robotics Project: Music-playing robot with velostat tailor-made keyboard (ROS, C++, Ableton, Arduino, GitHub, Linux)
   * Multidisciplinary Project: Electrical lunch box (C++, Arduino)
 
 Career History
 ======
+* Visiting PhD Student, Honda Research Institute Europe GmbH, Offenbach am Main, Germany (June 2025 – Present)
+  * Project: Enhancing CoPAL with Explainable Multimodal Summaries: Extending the CoPAL (Corrective Planning of Robot Actions with Large Language Models) framework to generate natural language explanations for robotic decision-making. The project integrates Grounded-SAM-2 for visual processing, hierarchical summarization algorithms, and Qwen 3 LLM to transform complex robotic decisions into clear, human-readable explanations. This research addresses the critical challenge of robot transparency, enabling better human-robot collaboration by making AI decision-making processes interpretable and trustworthy. [CoPAL Original Paper](https://hri-eu.github.io/Loom/)
+  * Supervisors: [Frank Joublin](https://scholar.google.com/citations?user=bfGNPQYAAAAJ&hl=en), [Antonello Ceravola](https://scholar.google.com/citations?user=5BcObIoAAAAJ&hl=en)
+
 * Schneider Electric, Eybens, France, Internship, MSc in Mechanical and Electrical Engineering (June 2021 - August 2021)
   * Analysed the productivity of different assembly lines for robotics applications in a factory in Riga (Latvia), targeting labour productivity and increasing the capacity of the production cell
   * Led the study of collaborative robot implementation in production lines. The leading team was delighted and decided to continue the study
@@ -46,7 +50,7 @@ My research focuses on developing deep learning architectures that address the c
 Key objectives include:
 * Developing architectures that link visual entities in images and textual descriptions to knowledge databases
 * Enabling semantic descriptions through ontology
-* Enhancing a robot's ability to interpret and communicate its understanding of the environment
+* Enhancing a robot\'s ability to interpret and communicate its understanding of the environment
 * Improving multimedia data processing and semantic understanding for better human-robot interactions
 
 Skills
@@ -74,3 +78,5 @@ Contact
 * Department: [Department of Mathematics "Tullio Levi-Civita"](https://www.math.unipd.it/dipartimento/persone/belko_errol_yanis.diallo/)
 * LinkedIn: [yanisdiallo](https://www.linkedin.com/in/yanisdiallo)
 * GitHub: [psykaunot](https://github.com/psykaunot)
+
+
