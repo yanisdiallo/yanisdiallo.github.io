@@ -1,4 +1,3 @@
-# Site settings
 title: "Yanis Diallo"
 email: "ydiallo@math.unipd.it"
 description: "PhD Candidate in Computer Science for Societal Challenges and Innovation, TRAIL Doctoral Network (Università di Padova)."
@@ -70,4 +69,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+
+
 

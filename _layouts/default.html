@@ -1,146 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Icons -->
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    
-    <!-- Theme Script -->
-    <script>
-        // Theme handling
-        const getTheme = () => localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        const setTheme = (theme) => {
-            localStorage.setItem('theme', theme);
-            document.documentElement.classList.toggle('dark', theme === 'dark');
-        };
-        setTheme(getTheme());
-    </script>
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/favicon.png">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="{{ '/' | relative_url }}" class="nav-brand">{{ site.author.name }}</a>
-            
-            <!-- Desktop Navigation -->
-            <div class="nav-menu">
-                <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">About</a>
-                <a href="{{ '/cv/' | relative_url }}" class="nav-link {% if page.url == '/cv/' %}active{% endif %}">CV</a>
-                <a href="{{ '/publications/' | relative_url }}" class="nav-link {% if page.url == '/publications/' %}active{% endif %}">Publications</a>
-                <a href="{{ '/research/' | relative_url }}" class="nav-link {% if page.url == '/research/' %}active{% endif %}">Research</a>
-                <a href="{{ '/contact/' | relative_url }}" class="nav-link {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
-                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-                    <i data-lucide="sun" class="sun-icon"></i>
-                    <i data-lucide="moon" class="moon-icon"></i>
-                </button>
-            </div>
+    <header>
+        <nav>
+            <a href="{{ site.baseurl }}/" class="site-title">{{ site.title }}</a>
+            <ul>
+                <li><a href="{{ site.baseurl }}/">About</a></li>
+                <li><a href="{{ site.baseurl }}/cv/">CV</a></li>
+                <li><a href="{{ site.baseurl }}/publications/">Publications</a></li>
+                <li><a href="{{ site.baseurl }}/research/">Research</a></li>
+                <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <i data-lucide="moon" class="light-mode-icon"></i>
+                <i data-lucide="sun" class="dark-mode-icon"></i>
+            </button>
+        </nav>
+    </header>
 
-            <!-- Mobile menu button -->
-            <div class="mobile-menu-container">
-                <button id="theme-toggle-mobile" class="theme-toggle" aria-label="Toggle theme">
-                    <i data-lucide="sun" class="sun-icon"></i>
-                    <i data-lucide="moon" class="moon-icon"></i>
-                </button>
-                <button id="mobile-menu-toggle" class="mobile-menu-toggle">
-                    <i data-lucide="menu" class="menu-icon"></i>
-                    <i data-lucide="x" class="close-icon"></i>
-                </button>
-            </div>
-        </div>
-
-        <!-- Mobile Navigation -->
-        <div id="mobile-menu" class="mobile-menu">
-            <a href="{{ '/' | relative_url }}" class="mobile-nav-link {% if page.url == '/' %}active{% endif %}">About</a>
-            <a href="{{ '/cv/' | relative_url }}" class="mobile-nav-link {% if page.url == '/cv/' %}active{% endif %}">CV</a>
-            <a href="{{ '/publications/' | relative_url }}" class="mobile-nav-link {% if page.url == '/publications/' %}active{% endif %}">Publications</a>
-            <a href="{{ '/research/' | relative_url }}" class="mobile-nav-link {% if page.url == '/research/' %}active{% endif %}">Research</a>
-            <a href="{{ '/contact/' | relative_url }}" class="mobile-nav-link {% if page.url == '/contact/' %}active{% endif %}">Contact</a>
-        </div>
-    </nav>
-
-    <!-- Main Content -->
-    <main class="main-content">
+    <main>
         {{ content }}
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
-            <div class="footer-links">
-                {% if site.author.email %}
-                <a href="mailto:{{ site.author.email }}" aria-label="Email">
-                    <i data-lucide="mail"></i>
-                </a>
-                {% endif %}
-                {% if site.author.github %}
-                <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                    <i data-lucide="github"></i>
-                </a>
-                {% endif %}
-                {% if site.author.linkedin %}
-                <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                    <i data-lucide="linkedin"></i>
-                </a>
-                {% endif %}
-            </div>
-        </div>
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
     </footer>
 
-    <!-- JavaScript -->
     <script>
-        // Initialize Lucide icons
-        lucide.createIcons();
+        const themeToggle = document.getElementById("theme-toggle");
+        const body = document.body;
 
-        // Theme toggle functionality
-        const themeToggle = document.getElementById('theme-toggle');
-        const themeToggleMobile = document.getElementById('theme-toggle-mobile');
-        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        function toggleTheme() {
-            const currentTheme = getTheme();
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            setTheme(newTheme);
+        // Set initial theme based on user preference or default to light
+        const currentTheme = localStorage.getItem("theme");
+        if (currentTheme) {
+            body.classList.add(currentTheme);
+        } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            body.classList.add("dark-mode");
+        } else {
+            body.classList.add("light-mode");
         }
 
-        themeToggle?.addEventListener('click', toggleTheme);
-        themeToggleMobile?.addEventListener('click', toggleTheme);
-
-        // Mobile menu toggle
-        mobileMenuToggle?.addEventListener('click', () => {
-            mobileMenu.classList.toggle('active');
-            mobileMenuToggle.classList.toggle('active');
-        });
-
-        // Close mobile menu when clicking on a link
-        document.querySelectorAll('.mobile-nav-link').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.remove('active');
-                mobileMenuToggle.classList.remove('active');
-            });
-        });
-
-        // Close mobile menu when clicking outside
-        document.addEventListener('click', (e) => {
-            if (!mobileMenu.contains(e.target) && !mobileMenuToggle.contains(e.target)) {
-                mobileMenu.classList.remove('active');
-                mobileMenuToggle.classList.remove('active');
+        themeToggle.addEventListener("click", () => {
+            if (body.classList.contains("light-mode")) {
+                body.classList.remove("light-mode");
+                body.classList.add("dark-mode");
+                localStorage.setItem("theme", "dark-mode");
+            } else {
+                body.classList.remove("dark-mode");
+                body.classList.add("light-mode");
+                localStorage.setItem("theme", "light-mode");
             }
         });
+
+        lucide.createIcons();
     </script>
 </body>
+
 </html>
+
 
