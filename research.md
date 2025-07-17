@@ -15,7 +15,7 @@ permalink: /research/
         <ul>
             <li>Developing architectures that link visual entities in images and textual descriptions to knowledge databases</li>
             <li>Enabling semantic descriptions through ontology</li>
-            <li>Enhancing a robot's ability to interpret and communicate its understanding of the environment</li>
+            <li>Enhancing a robot\'s ability to interpret and communicate its understanding of the environment</li>
             <li>Improving multimedia data processing and semantic understanding for better human-robot interactions</li>
         </ul>
     </section>
@@ -39,7 +39,7 @@ permalink: /research/
         </h2>
         <div class="research-item">
             <h3>Optimized Obstacle Avoidance using a Hybrid Navigation Framework with YOLOv7</h3>
-            <p>My Master's thesis at Cranfield University focused on developing an efficient and robust obstacle avoidance system for mobile robots. This involved integrating real-time object detection using YOLOv7 with a hybrid navigation framework, significantly improving the robot's ability to navigate complex and dynamic environments.</p>
+            <p>My Master\'s thesis at Cranfield University focused on developing an efficient and robust obstacle avoidance system for mobile robots. This involved integrating real-time object detection using YOLOv7 with a hybrid navigation framework, significantly improving the robot\'s ability to navigate complex and dynamic environments.</p>
             <p><strong>Keywords:</strong> Robotics, Obstacle Avoidance, YOLOv7, Mobile Robotics, Navigation, Computer Vision.</p>
         </div>
     </section>
