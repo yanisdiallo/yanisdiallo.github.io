@@ -1,32 +1,82 @@
 ---
 layout: default
-title: "Yanis Diallo - Academic Website"
+permalink: /
 ---
 
-<div class="hero">
-    <div class="profile-image-container">
-        <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Yanis Diallo Profile Picture">
-    </div>
-    <div class="hero-content">
-        <h1>Hi, I'm Yanis Diallo</h1>
-        <p>PhD Candidate in Computer Science for Societal Challenges and Innovation at Università di Padova, specializing in Deep Learning-Based Architectures for Semantics Discovery.</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
-            <a href="https://github.com/{{ site.author.github }}/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
-            <a href="{{ site.author.academic_profile }}" target="_blank" rel="noopener noreferrer" aria-label="Academic Profile"><i data-lucide="book"></i></a>
-            <a href="{{ site.author.department_profile }}" target="_blank" rel="noopener noreferrer" aria-label="Department Profile"><i data-lucide="building"></i></a>
-            <a href="mailto:{{ site.author.email }}" aria-label="Email"><i data-lucide="mail"></i></a>
+<div class="hero-section">
+    <div class="hero-container">
+        <!-- Profile Image - Left Side -->
+        <div class="profile-image-container">
+            <div class="profile-image">
+                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="{{ site.author.name }}" />
+                <div class="profile-badge">
+                    <i data-lucide="graduation-cap"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content - Right Side -->
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">{{ site.author.name }}</h1>
+                <p class="hero-subtitle">{{ site.author.bio }}</p>
+                <div class="hero-details">
+                    <div class="detail-item">
+                        <i data-lucide="building"></i>
+                        <span>{{ site.author.employer }}</span>
+                    </div>
+                    <div class="detail-item">
+                        <i data-lucide="map-pin"></i>
+                        <span>{{ site.author.location }}</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-focus">
+                <h2 class="section-title">
+                    <i data-lucide="book-open"></i>
+                    Research Focus
+                </h2>
+                <p class="research-description">
+                    My research focuses on developing deep learning architectures that address the challenge of 
+                    processing and understanding multimedia data—images, videos, texts, and audio. The project 
+                    aims to bridge the gap between multimedia representation and machine perception of entities, 
+                    their semantic meanings, and interconnected events.
+                </p>
+            </div>
+
+            <div class="supervisor-info">
+                <h3 class="supervisor-title">Supervisor</h3>
+                <p class="supervisor-name">
+                    <a href="{{ site.author.supervisor_link }}" target="_blank" rel="noopener noreferrer" class="supervisor-link">
+                        {{ site.author.supervisor_name }}
+                        <i data-lucide="external-link"></i>
+                    </a>
+                </p>
+            </div>
+
+            <div class="hero-actions">
+                <a href="mailto:{{ site.author.email }}" class="btn btn-primary">
+                    <i data-lucide="mail"></i>
+                    Contact Me
+                </a>
+                <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i data-lucide="github"></i>
+                    GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i data-lucide="linkedin"></i>
+                    LinkedIn
+                </a>
+            </div>
         </div>
     </div>
 </div>
 
-<section class="about-me">
-    <h2 class="section-title">
-        <i data-lucide="info"></i>
-        About Me
-    </h2>
-    <p>I am a passionate researcher with a strong background in Robotics and Artificial Intelligence. My current work focuses on developing advanced deep learning models to understand and interpret complex multimedia data, aiming to enhance human-robot collaboration through improved AI transparency.</p>
-    <p>I hold an MSc in Robotics from Cranfield University and an MSc in Mechanical and Electrical Engineering with a Robotics Specialization from ECAM LaSalle Engineering School. My research interests include deep learning, computer vision, natural language processing, and human-robot interaction.</p>
-</section>
-
+<script>
+    // Initialize Lucide icons for this page
+    document.addEventListener('DOMContentLoaded', function() {
+        lucide.createIcons();
+    });
+</script>
 

@@ -2,14 +2,27 @@
 layout: default
 ---
 
-<article class="publication">
-
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {{ content }}
-  </div>
-
-</article>
-
+<div class="publication-content">
+    <div class="publication-header">
+        <h1 class="publication-title">{{ page.title }}</h1>
+        {% if page.journal %}
+        <p class="publication-journal">{{ page.journal }}, {{ page.year }}</p>
+        {% endif %}
+        {% if page.conference %}
+        <p class="publication-conference">{{ page.conference }}, {{ page.year }}</p>
+        {% endif %}
+    </div>
+    
+    <div class="publication-body">
+        {{ content }}
+    </div>
+    
+    {% if page.tags %}
+    <div class="publication-tags">
+        {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
 

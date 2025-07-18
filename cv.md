@@ -15,7 +15,7 @@ permalink: /cv/
         <div class="cv-item">
             <div class="cv-item-header">
                 <h3 class="cv-item-title">PhD in Computer Science for Societal Challenges and Innovation</h3>
-                <p class="cv-item-subtitle">Università di Padova (March 2024 – Present)</p>
+                <p class="cv-item-subtitle">Università di Padova, XXXIX series (ongoing)</p>
             </div>
             <div class="cv-item-content">
                 <p><strong>Project:</strong> "Deep Learning-Based Architectures for Semantics Discovery of Entities and Events"</p>
@@ -48,7 +48,7 @@ permalink: /cv/
         <div class="cv-item">
             <div class="cv-item-header">
                 <h3 class="cv-item-title">MSc in Mechanical and Electrical Engineering with a Robotics Specialization</h3>
-                <p class="cv-item-subtitle">ECAM LaSalle Engineering School, Lyon, France (September 2018 - December 2023)</p>
+                <p class="cv-item-subtitle">ECAM LaSalle Engineering School, Lyon, France (September 2018 - September 2023)</p>
             </div>
             <div class="cv-item-content">
                 <p><strong>Modules:</strong> Robotics, Sensing & Perception, Signal Processing, Control Theory, Mechanical Design, Heat Transfer, Electrical Network, Materials</p>
@@ -64,16 +64,6 @@ permalink: /cv/
             <i data-lucide="building"></i>
             Professional Experience
         </h2>
-
-        <div class="cv-item">
-            <div class="cv-item-header">
-                <h3 class="cv-item-title">Visiting PhD Student</h3>
-                <p class="cv-item-subtitle">Honda Research Institute Europe GmbH | Offenbach am Main, Germany | June 2025 – Present</p>
-            </div>
-            <div class="cv-item-content">
-                <p><strong>Enhancing CoPAL with Explainable Multimodal Summaries:</strong> Extending the CoPAL (Corrective Planning of Robot Actions with Large Language Models) framework to generate natural language explanations for robotic decision-making. The project integrates Grounded-SAM-2 for visual processing, hierarchical summarization algorithms, and Qwen 3 LLM to transform complex robotic decisions into clear, human-readable explanations. This research addresses the critical challenge of robot transparency, enabling better human-robot collaboration by making AI decision-making processes interpretable and trustworthy. <a href="https://hri-eu.github.io/Loom/" target="_blank" rel="noopener noreferrer" class="inline-link">CoPAL Original Paper <i data-lucide="external-link"></i></a> | Supervisors: <a href="https://scholar.google.com/citations?user=bfGNPQYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="inline-link">Frank Joublin <i data-lucide="external-link"></i></a>, <a href="https://scholar.google.com/citations?user=5BcObIoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="inline-link">Antonello Ceravola <i data-lucide="external-link"></i></a></p>
-            </div>
-        </div>
         
         <div class="cv-item">
             <div class="cv-item-header">
@@ -170,9 +160,8 @@ permalink: /cv/
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener('DOMContentLoaded', function() {
         lucide.createIcons();
     });
 </script>
-
 
