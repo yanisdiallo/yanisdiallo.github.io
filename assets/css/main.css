@@ -290,7 +290,7 @@ a:hover {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: var(--spacing-3xl);
-  align-items: center;
+  align-items: flex-start;
 }
 
 .profile-image-container {
