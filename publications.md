@@ -26,6 +26,22 @@ permalink: /publications/
                 Read Paper <i data-lucide="external-link"></i>
             </a>
         </div>
+
+        <div class="publication-item">
+            <h3 class="publication-title">Collaborative Project Proposals: Multimodal Home Assistant for Grasping and Manipulation</h3>
+            <p class="publication-authors">Yanis Diallo, Julia Gachot, [Other Co-author Names]</p>
+            <p class="publication-journal">TRAIL Doctoral Network Collaborative Project (July 2025)</p>
+            <p class="publication-abstract">This project focuses on simulating a home assistant task where a user instructs a Locobot wx250s to grasp and put away books on a shelf in a simulated environment (Isaac Sim) based on vocal commands. The system combines audio and visual inputs to perform successive perception, reasoning, and manipulation steps, with an emphasis on designing a robust and transparent system to prevent "silent failures" in complex grasping tasks.</p>
+            <div class="publication-tags">
+                <span class="publication-tag">Robotics</span>
+                <span class="publication-tag">Isaac Sim</span>
+                <span class="publication-tag">Multimodal AI</span>
+                <span class="publication-tag">Locobot</span>
+            </div>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="publication-link">
+                View Proposal <i data-lucide="external-link"></i>
+            </a>
+        </div>
     </section>
 
     <section class="publication-section">
