@@ -67,7 +67,7 @@ permalink: /cv/
 
         <div class="cv-item">
             <div class="cv-item-header">
-                <h3 class="cv-item-title">Visiting PhD Student</h3>                <p class="cv-item-subtitle">Honda Research Institute Europe GmbH | Offenbach am Main, Germany | July 2025 – August 2025</p>5</p>
+                <h3 class="cv-item-title">Visiting PhD Student</h3>                <p class="cv-item-subtitle">Honda Research Institute Europe GmbH | Offenbach am Main, Germany | July 2025 – August 2025</p>
             </div>
             <div class="cv-item-content">
                 <p><strong>Enhancing CoPAL with Explainable Multimodal Summaries:</strong> Extending the CoPAL (Corrective Planning of Robot Actions with Large Language Models) framework to generate natural language explanations for robotic decision-making. The project integrates Grounded-SAM-2 for visual processing, hierarchical summarization algorithms, and Qwen 3 LLM to transform complex robotic decisions into clear, human-readable explanations. This research addresses the critical challenge of robot transparency, enabling better human-robot collaboration by making AI decision-making processes interpretable and trustworthy. <a href="https://hri-eu.github.io/Loom/" target="_blank" rel="noopener noreferrer" class="inline-link">CoPAL Original Paper <i data-lucide="external-link"></i></a> | Supervisors: <a href="https://scholar.google.com/citations?user=bfGNPQYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="inline-link">Frank Joublin <i data-lucide="external-link"></i></a>, <a href="https://scholar.google.com/citations?user=5BcObIoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="inline-link">Antonello Ceravola <i data-lucide="external-link"></i></a></p>
@@ -177,15 +177,7 @@ permalink: /cv/
 </script>
 
 
-        <div class="cv-item">
-            <div class="cv-item-header">
-                <h3 class="cv-item-title">Visiting PhD Student</h3>
-                <p class="cv-item-subtitle">University of Hamburg | Hamburg, Germany | August 2025 – August 2025</p>
-            </div>
-            <div class="cv-item-content">
-                <p>Details to be added later.</p>
-            </div>
-        </div>
+
 
 
         <div class="cv-item">
@@ -195,6 +187,7 @@ permalink: /cv/
             </div>
             <div class="cv-item-content">
                 <p><strong>Project: Multimodal Home Assistant for Grasping and Manipulation.</strong> Designing a framework for a Locobot wx250s to grasp and put away books in a simulated environment (Isaac Sim) based on vocal commands. The project focuses on combining audio and visual inputs for perception, reasoning, and manipulation, with an emphasis on designing a robust and transparent system to prevent "silent failures" in complex grasping tasks.</p>
+                <p><strong>Supervisor:</strong> <a href="https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html" target="_blank" rel="noopener noreferrer" class="inline-link">Prof. Dr. Stefan Wermter <i data-lucide="external-link"></i></a></p>
             </div>
         </div>
 
