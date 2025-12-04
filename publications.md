@@ -13,7 +13,7 @@ permalink: /publications/
 
         <div class="publication-item">
             <h3 class="publication-title">Mobile Robot Obstacle Detection and Avoidance with NAV-YOLO</h3>
-            <p class="publication-authors">Yanis Diallo, [Co-author Name(s)]</p>
+            <p class="publication-authors">Adiuku, Ndidiamaka; Avdelidis, Nicolas P.; Tang, Gilbert; Plastropoulos, Angelos; Diallo, Yanis</p>
             <p class="publication-journal">Proceedings of the 11th International Conference on Control, Mechatronics and Automation (ICCMA 2023)</p>
             <p class="publication-abstract">This paper presents a novel approach to mobile robot navigation, integrating YOLOv7 for real-time obstacle detection with a hybrid navigation framework for efficient avoidance. The system demonstrates robust performance in dynamic environments, contributing to safer and more autonomous robotic operations.</p>
             <div class="publication-tags">
@@ -22,7 +22,7 @@ permalink: /publications/
                 <span class="publication-tag">Obstacle Avoidance</span>
                 <span class="publication-tag">ROS</span>
             </div>
-            <a href="#" target="_blank" rel="noopener noreferrer" class="publication-link">
+           <a href="https://dspace.lib.cranfield.ac.uk/items/5e9eb087-ae41-4715-9dc9-d9ab00db0fe2" target="_blank" rel="noopener noreferrer" class="publication-link">
                 Read Paper <i data-lucide="external-link"></i>
             </a>
         </div>
@@ -57,7 +57,3 @@ permalink: /publications/
         lucide.createIcons();
     });
 </script>
-
-
-
-
