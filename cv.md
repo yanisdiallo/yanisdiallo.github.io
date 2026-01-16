@@ -76,6 +76,17 @@ permalink: /cv/
         
         <div class="cv-item">
             <div class="cv-item-header">
+                <h3 class="cv-item-title">Visiting PhD Student</h3>
+                <p class="cv-item-subtitle">University of Hamburg | Hamburg, Germany | August 2025 – August 2025</p>
+            </div>
+            <div class="cv-item-content">
+                <p><strong>Project: Multimodal Home Assistant for Grasping and Manipulation.</strong> Designing a framework for a Locobot wx250s to grasp and put away books in a simulated environment (Isaac Sim) based on vocal commands. The project focuses on combining audio and visual inputs for perception, reasoning, and manipulation, with an emphasis on designing a robust and transparent system to prevent "silent failures" in complex grasping tasks.</p>
+                <p><strong>Supervisor:</strong> <a href="https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html" target="_blank" rel="noopener noreferrer" class="inline-link">Prof. Dr. Stefan Wermter <i data-lucide="external-link"></i></a></p>
+            </div>
+        </div>
+
+        <div class="cv-item">
+            <div class="cv-item-header">
                 <h3 class="cv-item-title">Schneider Electric, Eybens, France</h3>
                 <p class="cv-item-subtitle">Internship, MSc in Mechanical and Electrical Engineering (June 2021 - August 2021)</p>
             </div>
@@ -175,19 +186,3 @@ permalink: /cv/
         lucide.createIcons();
     });
 </script>
-
-
-
-
-
-        <div class="cv-item">
-            <div class="cv-item-header">
-                <h3 class="cv-item-title">Visiting PhD Student</h3>
-                <p class="cv-item-subtitle">University of Hamburg | Hamburg, Germany | August 2025 – August 2025</p>
-            </div>
-            <div class="cv-item-content">
-                <p><strong>Project: Multimodal Home Assistant for Grasping and Manipulation.</strong> Designing a framework for a Locobot wx250s to grasp and put away books in a simulated environment (Isaac Sim) based on vocal commands. The project focuses on combining audio and visual inputs for perception, reasoning, and manipulation, with an emphasis on designing a robust and transparent system to prevent "silent failures" in complex grasping tasks.</p>
-                <p><strong>Supervisor:</strong> <a href="https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html" target="_blank" rel="noopener noreferrer" class="inline-link">Prof. Dr. Stefan Wermter <i data-lucide="external-link"></i></a></p>
-            </div>
-        </div>
-

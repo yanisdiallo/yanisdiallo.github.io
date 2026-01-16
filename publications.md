@@ -22,8 +22,7 @@ permalink: /publications/
                 <span class="publication-tag">Obstacle Avoidance</span>
                 <span class="publication-tag">ROS</span>
             </div>
-           <a href="https://dspace.lib.cranfield.ac.uk/items/5e9eb087-ae41-4715-9dc9-d9ab00db0fe2" target="_blank" rel="noopener noreferrer" class="publication-link">
-                Read Paper <i data-lucide="external-link"></i>
+           <a href="https://dspace.lib.cranfield.ac.uk/items/5e9eb087-ae41-4715-9dc9-d9ab00db0fe2" target="_blank" rel="noopener noreferrer" class="publication-link">\n                Read Paper <i data-lucide="external-link"></i>
             </a>
         </div>
 
@@ -38,15 +37,15 @@ permalink: /publications/
         <div class="publication-item">
             <h3 class="publication-title">Deep Learning for Semantic Understanding in Human-Robot Interaction</h3>
             <p class="publication-authors">Yanis Diallo</p>
-            <p class="publication-journal">TRAIL Doctoral Network Workshop, Università di Padova (March 2024)</p>
+            <p class="publication-journal">33rd International Conference on Artificial Neural Networks (ICANN 2024), Lugano, Switzerland (September 2024)</p>
             <p class="publication-abstract">Presented ongoing PhD research on developing deep learning architectures for processing and understanding multimedia data to enhance human-robot collaboration.</p>
             <div class="publication-tags">
                 <span class="publication-tag">Deep Learning</span>
                 <span class="publication-tag">Human-Robot Interaction</span>
                 <span class="publication-tag">Multimedia AI</span>
             </div>
-            <a href="#" target="_blank" rel="noopener noreferrer" class="publication-link">
-                View Slides <i data-lucide="external-link"></i>
+            <a href="https://e-nns.org/wp-content/uploads/2024/ICANN2024ConferenceBooklet.pdf" target="_blank" rel="noopener noreferrer" class="publication-link">
+                View Booklet <i data-lucide="external-link"></i>
             </a>
         </div>
     </section>
@@ -57,3 +56,7 @@ permalink: /publications/
         lucide.createIcons();
     });
 </script>
+
+
+
+
