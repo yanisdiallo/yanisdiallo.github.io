@@ -22,7 +22,8 @@ permalink: /publications/
                 <span class="publication-tag">Obstacle Avoidance</span>
                 <span class="publication-tag">ROS</span>
             </div>
-           <a href="https://dspace.lib.cranfield.ac.uk/items/5e9eb087-ae41-4715-9dc9-d9ab00db0fe2" target="_blank" rel="noopener noreferrer" class="publication-link">\n                Read Paper <i data-lucide="external-link"></i>
+           <a href="https://dspace.lib.cranfield.ac.uk/items/5e9eb087-ae41-4715-9dc9-d9ab00db0fe2" target="_blank" rel="noopener noreferrer" class="publication-link">
+                Read Paper <i data-lucide="external-link"></i>
             </a>
         </div>
 
