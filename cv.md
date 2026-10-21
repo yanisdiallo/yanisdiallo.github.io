@@ -67,6 +67,21 @@ permalink: /cv/
 
         <div class="cv-item">
             <div class="cv-item-header">
+                <h3 class="cv-item-title">Visiting Researcher</h3>
+                <p class="cv-item-subtitle">University of Manchester | Manchester, United Kingdom | September 2026 – Present</p>
+            </div>
+            <div class="cv-item-content">
+                <p><strong>Research:</strong> Instruction grounding and failure analysis in the π0.5 robot policy. Visit scheduled through November 2026.</p>
+                <ul>
+                    <li>Design and run controlled experiments in LIBERO to evaluate instruction grounding, object selection and grasping.</li>
+                    <li>Implement attention and activation interventions at inference time; compare against unchanged baselines and identity checks without retraining.</li>
+                    <li>Analyse object-choice errors separately from grasp failures to distinguish grounding changes from degraded action execution.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="cv-item">
+            <div class="cv-item-header">
                 <h3 class="cv-item-title">Visiting PhD Student</h3>
                 <p class="cv-item-subtitle">University of Hamburg | Hamburg, Germany | August 2025 – August 2025</p>
             </div>
@@ -140,6 +155,8 @@ permalink: /cv/
                     <li>HuggingFace, Ollama</li>
                     <li>AI2-THOR</li>
                     <li>Habitat-Lab</li>
+                    <li>LIBERO, PyTorch</li>
+                    <li>Controlled policy experiments, attention and activation interventions, failure analysis</li>
                 </ul>
             </div>
         </div>

@@ -11,6 +11,26 @@ permalink: /research/
             <i data-lucide="book-open"></i>
             Current Research Focus
         </h2>
+
+        <div class="research-project" id="instruction-grounding">
+            <h3 class="project-title">Instruction Grounding and Failure Analysis in Robot Policies</h3>
+            <p class="project-meta">Visiting Researcher • University of Manchester • September 2026 – Present</p>
+            <p class="project-description">
+                I study how the π0.5 robot policy uses instructions to select and grasp objects in LIBERO.
+                Controlled experiments compare attention and activation interventions at inference time
+                against unchanged baselines and identity checks, without retraining the policy.
+                The visit is scheduled through November 2026.
+            </p>
+
+            <div class="objectives">
+                <h4 class="objectives-title">Research Activities</h4>
+                <ul class="objectives-list">
+                    <li>Evaluate instruction grounding, object selection and grasping in controlled LIBERO experiments.</li>
+                    <li>Implement and assess attention and activation interventions during inference.</li>
+                    <li>Analyse object-choice errors separately from grasp failures to distinguish grounding changes from degraded action execution.</li>
+                </ul>
+            </div>
+        </div>
         
         <div class="research-project">
             <h3 class="project-title">Deep Learning-Based Architectures for Semantics Discovery of Entities and Events</h3>
