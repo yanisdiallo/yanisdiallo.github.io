@@ -6,8 +6,9 @@ permalink: /projects/
 
 <div class="projects-content">
     <div class="projects-intro">
-        <p>Selected academic projects in robotics, mechanical design and embedded systems, from the most recent to the earliest.</p>
+        <p>Selected academic projects in robotics, product innovation, mechanical design and embedded systems, from the most recent to the earliest.</p>
         <nav class="project-jump-links" aria-label="On this page">
+            <a href="#cooken">Cooken</a>
             <a href="#turtlebot">TurtleBot</a>
             <a href="#wind-turbine">Wind turbine</a>
             <a href="#weather-station">Weather station</a>
@@ -15,6 +16,30 @@ permalink: /projects/
         </nav>
         <p class="project-gallery-hint">Select an image to view it at full size.</p>
     </div>
+
+    <article class="portfolio-project" id="cooken" aria-labelledby="cooken-title">
+        <p class="project-kicker"><time datetime="2021-09">September 2021</time> – <time datetime="2022-05">May 2022</time> · Innovation project · Team of seven</p>
+        <h2 id="cooken-title">Cooken: Cordless Heated Lunchbox</h2>
+        <div class="project-tools" aria-label="Project areas">
+            <span>Product design</span><span>CAD</span><span>Market analysis</span>
+        </div>
+        <p>Worked in a multidisciplinary team of seven at ECAM Lyon on Cooken, a battery-powered lunchbox concept designed to heat meals without a power socket. The team brought together robotics, energy, mechanical engineering and supply chain backgrounds.</p>
+        <p>The project combined user-needs analysis, competitor research and product design with a business model and go-to-market strategy. Following technical feedback, the concept was refocused on portable heating. The proposal included CAD renders of the assembled product and its internal components.</p>
+        <div class="project-gallery">
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/cooken-lunchbox.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View the Cooken lunchbox CAD render at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/cooken-lunchbox.jpg' | relative_url }}" alt="CAD render of the assembled Cooken lunchbox with its lid closed" width="1564" height="757" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Assembled lunchbox concept</figcaption>
+            </figure>
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/cooken-exploded-view.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View the Cooken lunchbox exploded view at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/cooken-exploded-view.jpg' | relative_url }}" alt="Exploded CAD view showing the Cooken lunchbox lid, food container, heating and electronics layers, battery pack and outer casing" width="626" height="693" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Exploded view of the product components</figcaption>
+            </figure>
+        </div>
+    </article>
 
     <article class="portfolio-project" id="turtlebot" aria-labelledby="turtlebot-title">
         <p class="project-kicker"><time datetime="2021">2021</time> · Robotics · Individual project</p>
