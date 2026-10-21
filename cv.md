@@ -71,12 +71,7 @@ permalink: /cv/
                 <p class="cv-item-subtitle">University of Manchester | Manchester, United Kingdom | September 2026 – Present</p>
             </div>
             <div class="cv-item-content">
-                <p><strong>Research:</strong> Instruction grounding and failure analysis in the π0.5 robot policy. Visit scheduled through November 2026.</p>
-                <ul>
-                    <li>Design and run controlled experiments in LIBERO to evaluate instruction grounding, object selection and grasping.</li>
-                    <li>Implement attention and activation interventions at inference time; compare against unchanged baselines and identity checks without retraining.</li>
-                    <li>Analyse object-choice errors separately from grasp failures to distinguish grounding changes from degraded action execution.</li>
-                </ul>
+                <p><strong>Project: Instruction Grounding and Failure Analysis in Robot Policies.</strong> Designing and running controlled experiments in LIBERO to evaluate instruction grounding, object selection and grasping in the π0.5 robot policy. The work uses attention and activation interventions at inference time, compared against unchanged baselines and identity checks without retraining. Object-choice errors are analysed separately from grasp failures to distinguish grounding changes from degraded action execution. Visit scheduled through November 2026. | <strong>Supervisor:</strong> <a href="https://research.manchester.ac.uk/en/persons/angelo.cangelosi" target="_blank" rel="noopener noreferrer" class="inline-link">Prof. Angelo Cangelosi <i data-lucide="external-link"></i></a> | <strong>Collaborator:</strong> <a href="https://research.manchester.ac.uk/en/persons/theodor-wulff/" target="_blank" rel="noopener noreferrer" class="inline-link">Theodor Wulff <i data-lucide="external-link"></i></a></p>
             </div>
         </div>
 
