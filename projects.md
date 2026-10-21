@@ -17,7 +17,7 @@ permalink: /projects/
     </div>
 
     <article class="portfolio-project" id="turtlebot" aria-labelledby="turtlebot-title">
-        <p class="project-kicker">Robotics · Individual project</p>
+        <p class="project-kicker"><time datetime="2021">2021</time> · Robotics · Individual project</p>
         <h2 id="turtlebot-title">TurtleBot Mapping &amp; Obstacle Avoidance</h2>
         <div class="project-tools" aria-label="Tools used">
             <span>ROS</span><span>TurtleBot</span><span>catkin</span>
@@ -41,7 +41,7 @@ permalink: /projects/
     </article>
 
     <article class="portfolio-project" id="wind-turbine" aria-labelledby="wind-turbine-title">
-        <p class="project-kicker">Mechanical design · Team of three</p>
+        <p class="project-kicker"><time datetime="2021">2021</time> · Mechanical design · Team of three</p>
         <h2 id="wind-turbine-title">Wind Turbine Design &amp; Blade Optimisation</h2>
         <div class="project-tools" aria-label="Tools used">
             <span>PTC Creo</span><span>GNU Octave</span><span>CAD</span>
@@ -74,7 +74,7 @@ permalink: /projects/
     </article>
 
     <article class="portfolio-project" id="weather-station" aria-labelledby="weather-station-title">
-        <p class="project-kicker">Embedded systems · Team of three</p>
+        <p class="project-kicker"><time datetime="2020">2020</time> · Embedded systems · Team of three</p>
         <h2 id="weather-station-title">Weather Station: Wind Speed &amp; Direction</h2>
         <div class="project-tools" aria-label="Tools used">
             <span>Arduino</span><span>PTC Creo</span><span>CAD</span>
@@ -98,7 +98,7 @@ permalink: /projects/
     </article>
 
     <article class="portfolio-project" id="bottle-rocket" aria-labelledby="bottle-rocket-title">
-        <p class="project-kicker">Modelling &amp; simulation · Team of three</p>
+        <p class="project-kicker"><time datetime="2020">2020</time> · Modelling &amp; simulation · Team of three</p>
         <h2 id="bottle-rocket-title">Bottle Rocket: Design &amp; Aerodynamic Simulation</h2>
         <div class="project-tools" aria-label="Tools used">
             <span>PTC Creo</span><span>Arduino</span><span>ANSYS</span>
