@@ -13,6 +13,7 @@ permalink: /projects/
             <a href="#opencv-metrology">OpenCV measurement</a>
             <a href="#robot-localisation-planning">Localisation &amp; planning</a>
             <a href="#robot-failure-classification">Failure classification</a>
+            <a href="#abb-engine-assembly">ABB assembly</a>
             <a href="#cooken">Cooken</a>
             <a href="#turtlebot">TurtleBot</a>
             <a href="#wind-turbine">Wind turbine</a>
@@ -32,6 +33,14 @@ permalink: /projects/
         <p>Integrated visual detections into the ROS navigation pipeline by converting bounding-box information into laser-scan data.</p>
         <p>Built Gazebo scenarios and compared navigation approaches using completion time, travelled distance and collisions.</p>
         <p>Demonstrated initial operation on a physical TurtleBot3; the comparative evaluation focused on simulation after hardware issues interrupted further testing.</p>
+        <div class="project-gallery">
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/nav-yolo-navigation.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Object detection integrated with navigation in simulation at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/nav-yolo-navigation.jpg' | relative_url }}" alt="YOLOv7 detections and the RRT navigation path displayed in RViz" width="1298" height="743" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Object detection integrated with navigation in simulation</figcaption>
+            </figure>
+        </div>
     </article>
 
     <article class="portfolio-project" id="smart-hangar" aria-labelledby="smart-hangar-title">
@@ -44,6 +53,20 @@ permalink: /projects/
         <p>Configured the TurtleBot3 and contributed to local and global EKF integration using the ROS robot_localization package.</p>
         <p>Measured hangar waypoints, added a ground-truth plugin to the robot URDF and contributed to simulation and physical testing.</p>
         <p>Developed a C++ LiDAR-based obstacle-avoidance simulation and contributed to the project report and presentation.</p>
+        <div class="project-gallery">
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/smart-hangar-simulation.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View DARTeC hangar model used for simulation at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/smart-hangar-simulation.jpg' | relative_url }}" alt="Gazebo model of the DARTeC hangar and aircraft" width="661" height="365" loading="lazy" decoding="async">
+                </a>
+                <figcaption>DARTeC hangar model used for simulation</figcaption>
+            </figure>
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/smart-hangar-turtlebot.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Physical testing highlighted the challenges of the hangar floor at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/smart-hangar-turtlebot.jpg' | relative_url }}" alt="TurtleBot3 negotiating an uneven section of the hangar floor" width="817" height="547" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Physical testing highlighted the challenges of the hangar floor</figcaption>
+            </figure>
+        </div>
     </article>
 
     <article class="portfolio-project" id="opencv-metrology" aria-labelledby="opencv-metrology-title">
@@ -56,6 +79,14 @@ permalink: /projects/
         <p>Combined Gaussian smoothing, Canny edge detection, dilation and contour extraction to identify objects and their shapes.</p>
         <p>Used a known-size reference object for measurement calibration.</p>
         <p>Evaluated measurements at several camera heights and analysed errors and detection limitations.</p>
+        <div class="project-gallery">
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/opencv-object-measurement.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Reference-based measurement of coin radii at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/opencv-object-measurement.jpg' | relative_url }}" alt="OpenCV contours and radius measurements overlaid on two coins" width="698" height="477" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Reference-based measurement of coin radii</figcaption>
+            </figure>
+        </div>
     </article>
 
     <article class="portfolio-project" id="robot-localisation-planning" aria-labelledby="robot-localisation-planning-title">
@@ -68,6 +99,14 @@ permalink: /projects/
         <p>Implemented an Extended Kalman Filter using robot motion and LiDAR range/bearing measurements to six known landmarks.</p>
         <p>Constructed Dubins paths between specified poses.</p>
         <p>Completed an RRT exercise to generate routes around obstacles and visualised the resulting paths.</p>
+        <div class="project-gallery">
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/rrt-path-planning.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Sampling-based path planning with RRT at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/rrt-path-planning.jpg' | relative_url }}" alt="RRT exploration tree with the resulting path highlighted" width="700" height="525" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Sampling-based path planning with RRT</figcaption>
+            </figure>
+        </div>
     </article>
 
     <article class="portfolio-project" id="robot-failure-classification" aria-labelledby="robot-failure-classification-title">
@@ -80,6 +119,33 @@ permalink: /projects/
         <p>Prepared and explored labelled data for grasping, transfer, release and motion tasks.</p>
         <p>Compared classifiers including decision trees, random forests, support vector machines and k-nearest neighbours.</p>
         <p>Examined confusion matrices and classification reports, then explored model tuning and dimensionality reduction.</p>
+        <div class="project-gallery">
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/robot-failure-learning-curves.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Training and validation curves used to assess model behaviour at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/robot-failure-learning-curves.jpg' | relative_url }}" alt="Training and validation score curves from the robot failure classification study" width="637" height="434" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Training and validation curves used to assess model behaviour</figcaption>
+            </figure>
+        </div>
+    </article>
+
+    <article class="portfolio-project" id="abb-engine-assembly" aria-labelledby="abb-engine-assembly-title">
+        <p class="project-kicker">Fundamentals of Robotics · Cranfield University · 2022 · Group project</p>
+        <h2 id="abb-engine-assembly-title">Aircraft Engine Casing Assembly with ABB RobotStudio</h2>
+        <div class="project-tools" aria-label="Project technologies and areas">
+            <span>ABB RobotStudio</span><span>IRB 4600</span><span>Gripper design</span><span>CAD</span><span>Robotic assembly</span>
+        </div>
+        <p>Worked on a group concept for assembling the upper and lower sections of an aircraft engine casing using an ABB industrial robot. The study covered component geometry, handling requirements, gripper selection and the assembly-cell sequence.</p>
+        <p>The proposed solution used an internally expanding pneumatic gripper with soft contact surfaces. CAD-based mass estimates informed the selection of an ABB IRB 4600 for handling the casing sections and tooling.</p>
+        <p>The cell concept transfers the lower casing to a rotating platform, places the upper section above it and uses a proposed vision-assisted alignment step to prepare the holes for fastening. The RobotStudio station below shows an early assembly setup.</p>
+        <div class="project-gallery">
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/abb-engine-assembly.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Early RobotStudio assembly-cell setup at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/abb-engine-assembly.jpg' | relative_url }}" alt="RobotStudio station preview showing an ABB robot beside an engine casing and tooling" width="400" height="300" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Early RobotStudio assembly-cell setup</figcaption>
+            </figure>
+        </div>
     </article>
 
     <article class="portfolio-project" id="cooken" aria-labelledby="cooken-title">
