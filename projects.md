@@ -119,10 +119,10 @@ permalink: /projects/
                 <figcaption>Sampling-based path planning with RRT</figcaption>
             </figure>
             <figure class="project-figure">
-                <a class="project-image-link" href="{{ '/assets/images/projects/ekf-localisation.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Extended Kalman Filter (EKF): fused trajectory using six landmarks at full size (opens in a new tab)">
-                    <img src="{{ '/assets/images/projects/ekf-localisation.jpg' | relative_url }}" alt="Robot trajectory estimated by Extended Kalman Filter sensor fusion with six reference landmarks" width="700" height="525" loading="lazy" decoding="async">
+                <a class="project-image-link" href="{{ '/assets/images/projects/ekf-corrected-trajectories.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Extended Kalman Filter (EKF): comparison of six landmark-based trajectory corrections at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/ekf-corrected-trajectories.jpg' | relative_url }}" alt="Six robot trajectories corrected by the Extended Kalman Filter using individual reference landmarks" width="700" height="525" loading="lazy" decoding="async">
                 </a>
-                <figcaption>Extended Kalman Filter (EKF): fused trajectory using six landmarks</figcaption>
+                <figcaption>Extended Kalman Filter (EKF): comparison of six landmark-based trajectory corrections</figcaption>
             </figure>
         </div>
     </article>
