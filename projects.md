@@ -40,6 +40,12 @@ permalink: /projects/
                 </a>
                 <figcaption>Object detection integrated with navigation in simulation</figcaption>
             </figure>
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/nav-yolo-real-robot.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Initial integration on a physical TurtleBot3 in the laboratory at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/nav-yolo-real-robot.jpg' | relative_url }}" alt="YOLO detections in a real laboratory alongside the TurtleBot navigation map in RViz" width="1371" height="658" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Initial integration on a physical TurtleBot3 in the laboratory</figcaption>
+            </figure>
         </div>
     </article>
 
@@ -86,6 +92,12 @@ permalink: /projects/
                 </a>
                 <figcaption>Reference-based measurement of coin radii</figcaption>
             </figure>
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/opencv-multiple-objects.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Simultaneous shape detection and measurement of multiple objects at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/opencv-multiple-objects.jpg' | relative_url }}" alt="OpenCV detection and dimension overlays on a rectangular card and two coins" width="639" height="479" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Simultaneous shape detection and measurement of multiple objects</figcaption>
+            </figure>
         </div>
     </article>
 
@@ -93,7 +105,7 @@ permalink: /projects/
         <p class="project-kicker">Autonomy in Robotic Systems · Cranfield University · 2023</p>
         <h2 id="robot-localisation-planning-title">Robot Localisation and Path Planning</h2>
         <div class="project-tools" aria-label="Project technologies and areas">
-            <span>EKF</span><span>Localisation</span><span>LiDAR</span><span>Dubins paths</span><span>RRT</span>
+            <span>Extended Kalman Filter (EKF)</span><span>Localisation</span><span>LiDAR</span><span>Dubins paths</span><span>RRT</span>
         </div>
         <p>Implemented and studied estimation and planning methods for autonomous robots, from landmark-based localisation to geometric and sampling-based paths.</p>
         <p>Implemented an Extended Kalman Filter using robot motion and LiDAR range/bearing measurements to six known landmarks.</p>
@@ -105,6 +117,12 @@ permalink: /projects/
                     <img src="{{ '/assets/images/projects/rrt-path-planning.jpg' | relative_url }}" alt="RRT exploration tree with the resulting path highlighted" width="700" height="525" loading="lazy" decoding="async">
                 </a>
                 <figcaption>Sampling-based path planning with RRT</figcaption>
+            </figure>
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/ekf-localisation.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Extended Kalman Filter (EKF): fused trajectory using six landmarks at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/ekf-localisation.jpg' | relative_url }}" alt="Robot trajectory estimated by Extended Kalman Filter sensor fusion with six reference landmarks" width="700" height="525" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Extended Kalman Filter (EKF): fused trajectory using six landmarks</figcaption>
             </figure>
         </div>
     </article>
@@ -126,6 +144,12 @@ permalink: /projects/
                 </a>
                 <figcaption>Training and validation curves used to assess model behaviour</figcaption>
             </figure>
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/robot-failure-classification-results.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Confusion matrices, precision, recall and F1 scores for two classifiers at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/robot-failure-classification-results.jpg' | relative_url }}" alt="Decision tree and random forest confusion matrices and classification reports" width="889" height="534" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Confusion matrices, precision, recall and F1 scores for two classifiers</figcaption>
+            </figure>
         </div>
     </article>
 
@@ -144,6 +168,12 @@ permalink: /projects/
                     <img src="{{ '/assets/images/projects/abb-engine-assembly.jpg' | relative_url }}" alt="RobotStudio station preview showing an ABB robot beside an engine casing and tooling" width="400" height="300" loading="lazy" decoding="async">
                 </a>
                 <figcaption>Early RobotStudio assembly-cell setup</figcaption>
+            </figure>
+            <figure class="project-figure">
+                <a class="project-image-link" href="{{ '/assets/images/projects/abb-engine-casing-reference.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Target engine casing assembly supplied in the Cranfield coursework brief at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/abb-engine-casing-reference.jpg' | relative_url }}" alt="Reference CAD model showing the upper and lower aircraft engine casing joined at a bolted flange" width="926" height="794" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Target engine casing assembly supplied in the Cranfield coursework brief</figcaption>
             </figure>
         </div>
     </article>
