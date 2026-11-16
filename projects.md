@@ -145,10 +145,10 @@ permalink: /projects/
                 <figcaption>Training and validation curves used to assess model behaviour</figcaption>
             </figure>
             <figure class="project-figure">
-                <a class="project-image-link" href="{{ '/assets/images/projects/robot-failure-classification-results.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Confusion matrices, precision, recall and F1 scores for two classifiers at full size (opens in a new tab)">
-                    <img src="{{ '/assets/images/projects/robot-failure-classification-results.jpg' | relative_url }}" alt="Decision tree and random forest confusion matrices and classification reports" width="889" height="534" loading="lazy" decoding="async">
+                <a class="project-image-link" href="{{ '/assets/images/projects/robot-failure-model-validation.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Model learning curve: training and validation scores across sample sizes at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/robot-failure-model-validation.jpg' | relative_url }}" alt="Training and validation scores across increasing sample sizes for robot failure classification" width="633" height="432" loading="lazy" decoding="async">
                 </a>
-                <figcaption>Confusion matrices, precision, recall and F1 scores for two classifiers</figcaption>
+                <figcaption>Model learning curve: training and validation scores across sample sizes</figcaption>
             </figure>
         </div>
     </article>
