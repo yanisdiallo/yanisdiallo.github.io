@@ -9,6 +9,7 @@ permalink: /projects/
         <p>Selected academic projects in autonomous robotics, computer vision, machine learning, product innovation and embedded systems, from Cranfield University to ECAM Lyon.</p>
         <nav class="project-jump-links" aria-label="On this page">
             <a href="#nav-yolo">NAV-YOLO</a>
+            <a href="#robot-arm-control">Robot arm control</a>
             <a href="#smart-hangar">Smart Hangar</a>
             <a href="#opencv-metrology">OpenCV measurement</a>
             <a href="#robot-localisation-planning">Localisation &amp; planning</a>
@@ -45,6 +46,32 @@ permalink: /projects/
                     <img src="{{ '/assets/images/projects/nav-yolo-real-robot.jpg' | relative_url }}" alt="YOLO detections in a real laboratory alongside the TurtleBot navigation map in RViz" width="1371" height="658" loading="lazy" decoding="async">
                 </a>
                 <figcaption>Initial integration on a physical TurtleBot3 in the laboratory</figcaption>
+            </figure>
+        </div>
+    </article>
+
+    <article class="portfolio-project" id="robot-arm-control" aria-labelledby="robot-arm-control-title">
+        <p class="project-kicker">Robotics Control · Cranfield University · August 2023 · Individual project</p>
+        <h2 id="robot-arm-control-title">Robot Arm Kinematics &amp; PID Control</h2>
+        <div class="project-tools" aria-label="Project technologies and areas">
+            <span>MATLAB</span><span>Simulink</span><span>Simscape</span><span>PID control</span><span>Kinematics</span><span>Jacobian analysis</span>
+        </div>
+        <p>Modelled a three-degree-of-freedom robot arm and developed a simulation-based control system in MATLAB and Simulink. The study connected manipulator kinematics with trajectory generation and joint feedback control.</p>
+        <p>Derived Denavit–Hartenberg parameters, forward and inverse kinematics, Jacobians and joint velocities, and examined manipulator singularities. Extended the kinematic analysis to a six-degree-of-freedom manipulator.</p>
+        <p>Built the three-joint arm using Simscape and Robotics System Toolbox. The controller links a trapezoidal velocity trajectory, pose transformations, inverse kinematics, joint-level PID feedback and forward kinematics.</p>
+        <p>Evaluated the simulated second-joint response to a reference command. The response approached the target over roughly nine seconds, highlighting the need for further tuning for faster tracking.</p>
+        <div class="project-gallery">
+            <figure class="project-figure" style="grid-column: 1 / -1;">
+                <a class="project-image-link project-image-link-wide" href="{{ '/assets/images/projects/robot-arm-controller.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Figure 7 — Simulink controller block diagram at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/robot-arm-controller.png' | relative_url }}" alt="Simulink controller block diagram connecting trajectory generation, inverse kinematics, PID feedback and the robot model" width="1798" height="399" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Figure 7 — Simulink controller block diagram</figcaption>
+            </figure>
+            <figure class="project-figure" style="grid-column: 1 / -1;">
+                <a class="project-image-link project-image-link-wide" href="{{ '/assets/images/projects/robot-arm-joint-response.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Figure 8 — Second-joint response under feedback control at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/robot-arm-joint-response.png' | relative_url }}" alt="Simulated second-joint response approaching its reference command over time" width="1323" height="645" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Figure 8 — Second-joint response under feedback control</figcaption>
             </figure>
         </div>
     </article>
