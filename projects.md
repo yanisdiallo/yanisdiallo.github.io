@@ -6,6 +6,7 @@ permalink: /projects/
 
 <div class="projects-content">
     <div class="projects-intro">
+        <p><em>More to be added soon.</em></p>
         <p>Selected academic projects in autonomous robotics, computer vision, machine learning, product innovation and embedded systems, from Cranfield University to ECAM Lyon.</p>
         <nav class="project-jump-links" aria-label="On this page">
             <a href="#nav-yolo">NAV-YOLO</a>
