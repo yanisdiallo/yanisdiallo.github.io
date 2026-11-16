@@ -145,10 +145,10 @@ permalink: /projects/
                 <figcaption>Training and validation curves used to assess model behaviour</figcaption>
             </figure>
             <figure class="project-figure">
-                <a class="project-image-link" href="{{ '/assets/images/projects/robot-failure-model-validation.jpg' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Model learning curve: training and validation scores across sample sizes at full size (opens in a new tab)">
-                    <img src="{{ '/assets/images/projects/robot-failure-model-validation.jpg' | relative_url }}" alt="Training and validation scores across increasing sample sizes for robot failure classification" width="633" height="432" loading="lazy" decoding="async">
+                <a class="project-image-link" href="{{ '/assets/images/projects/robot-failure-tx-distribution.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Torque Tx distribution: Normal vs Failure at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/robot-failure-tx-distribution.png' | relative_url }}" alt="Density distributions of torque Tx for normal operation and robot failures" width="576" height="432" loading="lazy" decoding="async">
                 </a>
-                <figcaption>Model learning curve: training and validation scores across sample sizes</figcaption>
+                <figcaption>Torque Tx distribution: Normal vs Failure</figcaption>
             </figure>
         </div>
     </article>
