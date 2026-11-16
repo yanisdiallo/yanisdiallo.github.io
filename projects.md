@@ -62,6 +62,12 @@ permalink: /projects/
         <p>Evaluated the simulated second-joint response to a reference command. The response approached the target over roughly nine seconds, highlighting the need for further tuning for faster tracking.</p>
         <div class="project-gallery">
             <figure class="project-figure" style="grid-column: 1 / -1;">
+                <a class="project-image-link project-image-link-wide" href="{{ '/assets/images/projects/robot-arm-simscape.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View the Simscape robot arm model at full size (opens in a new tab)">
+                    <img src="{{ '/assets/images/projects/robot-arm-simscape.png' | relative_url }}" alt="Three-joint robot arm model displayed in the MATLAB Simulink Simscape viewer" width="889" height="472" loading="lazy" decoding="async">
+                </a>
+                <figcaption>Figure 6 — Three-joint robot arm model in Simscape</figcaption>
+            </figure>
+            <figure class="project-figure" style="grid-column: 1 / -1;">
                 <a class="project-image-link project-image-link-wide" href="{{ '/assets/images/projects/robot-arm-controller.png' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="View Figure 7 — Simulink controller block diagram at full size (opens in a new tab)">
                     <img src="{{ '/assets/images/projects/robot-arm-controller.png' | relative_url }}" alt="Simulink controller block diagram connecting trajectory generation, inverse kinematics, PID feedback and the robot model" width="1798" height="399" loading="lazy" decoding="async">
                 </a>
