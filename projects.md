@@ -6,8 +6,13 @@ permalink: /projects/
 
 <div class="projects-content">
     <div class="projects-intro">
-        <p>Selected academic projects in robotics, product innovation, mechanical design and embedded systems, from the most recent to the earliest.</p>
+        <p>Selected academic projects in autonomous robotics, computer vision, machine learning, product innovation and embedded systems, from Cranfield University to ECAM Lyon.</p>
         <nav class="project-jump-links" aria-label="On this page">
+            <a href="#nav-yolo">NAV-YOLO</a>
+            <a href="#smart-hangar">Smart Hangar</a>
+            <a href="#opencv-metrology">OpenCV measurement</a>
+            <a href="#robot-localisation-planning">Localisation &amp; planning</a>
+            <a href="#robot-failure-classification">Failure classification</a>
             <a href="#cooken">Cooken</a>
             <a href="#turtlebot">TurtleBot</a>
             <a href="#wind-turbine">Wind turbine</a>
@@ -16,6 +21,66 @@ permalink: /projects/
         </nav>
         <p class="project-gallery-hint">Select an image to view it at full size.</p>
     </div>
+
+    <article class="portfolio-project" id="nav-yolo" aria-labelledby="nav-yolo-title">
+        <p class="project-kicker">MSc thesis · Cranfield University · 2023</p>
+        <h2 id="nav-yolo-title">NAV-YOLO: Hybrid Navigation for Obstacle Avoidance</h2>
+        <div class="project-tools" aria-label="Project technologies and areas">
+            <span>ROS</span><span>Gazebo</span><span>TurtleBot3</span><span>YOLOv7</span><span>RRT</span><span>DWA</span>
+        </div>
+        <p>Combined YOLOv7 object detection, RRT global planning and DWA local planning to investigate obstacle avoidance for a TurtleBot3 in static and dynamic environments.</p>
+        <p>Integrated visual detections into the ROS navigation pipeline by converting bounding-box information into laser-scan data.</p>
+        <p>Built Gazebo scenarios and compared navigation approaches using completion time, travelled distance and collisions.</p>
+        <p>Demonstrated initial operation on a physical TurtleBot3; the comparative evaluation focused on simulation after hardware issues interrupted further testing.</p>
+    </article>
+
+    <article class="portfolio-project" id="smart-hangar" aria-labelledby="smart-hangar-title">
+        <p class="project-kicker">Group research project · Cranfield University · 2023</p>
+        <h2 id="smart-hangar-title">Smart Hangar: Mobile Robot Localisation</h2>
+        <div class="project-tools" aria-label="Project technologies and areas">
+            <span>ROS</span><span>Sensor fusion</span><span>EKF</span><span>UWB</span><span>LiDAR</span><span>C++</span>
+        </div>
+        <p>Contributed to a multi-sensor localisation system for a TurtleBot3 operating in the feature-sparse DARTeC aircraft hangar. The team investigated fusion of wheel odometry, IMU, LiDAR and UWB measurements.</p>
+        <p>Configured the TurtleBot3 and contributed to local and global EKF integration using the ROS robot_localization package.</p>
+        <p>Measured hangar waypoints, added a ground-truth plugin to the robot URDF and contributed to simulation and physical testing.</p>
+        <p>Developed a C++ LiDAR-based obstacle-avoidance simulation and contributed to the project report and presentation.</p>
+    </article>
+
+    <article class="portfolio-project" id="opencv-metrology" aria-labelledby="opencv-metrology-title">
+        <p class="project-kicker">Machine Vision for Robotics · Cranfield University · 2023</p>
+        <h2 id="opencv-metrology-title">Real-Time Object Measurement with OpenCV</h2>
+        <div class="project-tools" aria-label="Project technologies and areas">
+            <span>C++</span><span>OpenCV</span><span>Computer vision</span><span>Metrology</span>
+        </div>
+        <p>Built a C++ camera-based measurement system that estimates object dimensions using a reference object to establish the pixel-to-distance scale.</p>
+        <p>Combined Gaussian smoothing, Canny edge detection, dilation and contour extraction to identify objects and their shapes.</p>
+        <p>Used a known-size reference object for measurement calibration.</p>
+        <p>Evaluated measurements at several camera heights and analysed errors and detection limitations.</p>
+    </article>
+
+    <article class="portfolio-project" id="robot-localisation-planning" aria-labelledby="robot-localisation-planning-title">
+        <p class="project-kicker">Autonomy in Robotic Systems · Cranfield University · 2023</p>
+        <h2 id="robot-localisation-planning-title">Robot Localisation and Path Planning</h2>
+        <div class="project-tools" aria-label="Project technologies and areas">
+            <span>EKF</span><span>Localisation</span><span>LiDAR</span><span>Dubins paths</span><span>RRT</span>
+        </div>
+        <p>Implemented and studied estimation and planning methods for autonomous robots, from landmark-based localisation to geometric and sampling-based paths.</p>
+        <p>Implemented an Extended Kalman Filter using robot motion and LiDAR range/bearing measurements to six known landmarks.</p>
+        <p>Constructed Dubins paths between specified poses.</p>
+        <p>Completed an RRT exercise to generate routes around obstacles and visualised the resulting paths.</p>
+    </article>
+
+    <article class="portfolio-project" id="robot-failure-classification" aria-labelledby="robot-failure-classification-title">
+        <p class="project-kicker">AI and Machine Learning for Robotics · Cranfield University · 2022</p>
+        <h2 id="robot-failure-classification-title">Robot Failure Classification from Force and Torque</h2>
+        <div class="project-tools" aria-label="Project technologies and areas">
+            <span>Machine learning</span><span>Classification</span><span>Data analysis</span><span>Robot manipulation</span>
+        </div>
+        <p>Compared supervised learning approaches on five datasets describing robot manipulation outcomes through force and torque measurements.</p>
+        <p>Prepared and explored labelled data for grasping, transfer, release and motion tasks.</p>
+        <p>Compared classifiers including decision trees, random forests, support vector machines and k-nearest neighbours.</p>
+        <p>Examined confusion matrices and classification reports, then explored model tuning and dimensionality reduction.</p>
+    </article>
 
     <article class="portfolio-project" id="cooken" aria-labelledby="cooken-title">
         <p class="project-kicker"><time datetime="2021-09">September 2021</time> – <time datetime="2022-05">May 2022</time> · Innovation project · Team of seven</p>
